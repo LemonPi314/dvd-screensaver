@@ -1,0 +1,31 @@
+{
+    "number_of_images": "1",
+    "image_type": "1",
+    "refresh_speed": "250",
+    "image_color": {
+        "type": "preset",
+        "invert": "false",
+        "r": "255",
+        "g": "255",
+        "b": "255",
+        "a": "255"
+    },
+    "background_color": {
+        "r": "0",
+        "g": "0",
+        "b": "0"
+    },
+    "image_size": {
+        "width": "300",
+        "height": "300"
+    },
+    "image_speed": {
+        "type": "constant",
+        "x": "1",
+        "y": "1"
+    },
+    "screen_size": {
+        "width": "1920",
+        "height": "1080"
+    }
+}

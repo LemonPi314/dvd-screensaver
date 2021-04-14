@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['dvd-screensaver.py'],
+a = Analysis(['dvd-screensaver.py', 'gui.py'],
              pathex=['C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver'],
              binaries=[],
              datas=[],
@@ -15,15 +15,16 @@ a = Analysis(['dvd-screensaver.py'],
              win_private_assemblies=False,
              cipher=block_cipher,
              noarchive=False)
-a.datas += [('dvd-screensaver/images/1/normal/dvd-logo-1-blue.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-blue.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-cyan.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-cyan.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-green.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-green.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-magenta.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-magenta.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-orange.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-orange.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-purple.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-purple.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-red.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-red.png', 'DATA'),
-('dvd-screensaver/images/1/normal/dvd-logo-1-yellow.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-yellow.png', 'DATA'),
-('dvd-screensaver/images/current-image/current-image.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\current-image\\current-image.png', 'DATA')]
+a.datas += [('images/1/normal/dvd-logo-1-blue.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-blue.png', 'DATA'),
+('images/1/normal/dvd-logo-1-cyan.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-cyan.png', 'DATA'),
+('images/1/normal/dvd-logo-1-green.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-green.png', 'DATA'),
+('images/1/normal/dvd-logo-1-magenta.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-magenta.png', 'DATA'),
+('images/1/normal/dvd-logo-1-orange.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-orange.png', 'DATA'),
+('images/1/normal/dvd-logo-1-purple.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-purple.png', 'DATA'),
+('images/1/normal/dvd-logo-1-red.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-red.png', 'DATA'),
+('images/1/normal/dvd-logo-1-yellow.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\1\\normal\\dvd-logo-1-yellow.png', 'DATA'),
+('images/current-image/current-image.png', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\images\\current-image\\current-image.png', 'DATA'),
+('config.json', 'C:\\Users\\Timothy Pavlushik\\Documents\\Visual Studio Code\\Projects\\dvd-screensaver\\config.json', 'DATA')]
 pyz = PYZ(a.pure, a.zipped_data,
              cipher=block_cipher)
 exe = EXE(pyz,
